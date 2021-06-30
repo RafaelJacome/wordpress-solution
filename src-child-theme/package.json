@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://makingweb.site"
+    "url": "https://github.com/RafaelJacome/wordpress-solution"
   },
   "author": "Rafael Jacome",
   "license": "ISC",
-  "homepage": "https://makingweb.site",
+  "homepage": "https://github.com/RafaelJacome/wordpress-solution",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
