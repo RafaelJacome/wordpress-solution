@@ -1,0 +1,122 @@
+
+a {
+    outline: none !important;
+}
+.about-template {
+
+    padding: 30px 0 80px;
+
+    .picture {
+
+        img {
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 0 0.5em rgba(#999, 0.4);
+            width: 300px;
+        }
+    }
+
+    .info {
+
+        small {
+            font-size: 18px;
+        }
+
+        .is-flex {
+            display: flex;
+            align-items: center;
+
+            @media( max-width: 768px ) {
+                flex-wrap: wrap;
+            }
+
+            .btn {
+                font-size: 20px;
+                color: $primary;
+                padding: 8px 15px;
+                text-align: center;
+                border: 2px solid $primary;
+                border-radius: 5px;
+                transition: all 0.3s;
+                display: inline-flex;
+                align-items: center;
+                margin: 0 5px;
+
+                @media( max-width: 768px ) {
+                    display: flex;
+                    margin-bottom: 10px;
+                    width: 100%;
+                    justify-content: center;
+                }
+    
+                svg {
+                    width: 20px;
+                    margin: 0 10px 0 0;
+                }
+    
+                &:hover {
+                    background: $primary;
+                    color: #fff;
+                }
+            }
+        }
+
+    }
+
+}
+
+.skill-section {
+    padding: 80px 0 40px;
+
+    img {
+        transition: all 0.3s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+.portfolio-section {
+    padding: 80px 0 40px;
+
+    .columns {
+
+        .column {
+
+            a {
+
+                img {
+                    transition: all 0.3s;
+                }
+
+                &:hover {
+
+                    img {
+                        transform: scale(1.05);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.pet-section {
+    padding: 80px 0 40px;
+
+    h2 {
+        text-align: right;
+
+        @media( max-width: 768px ) {
+            text-align: center;
+        }
+    }
+
+    img {
+        border-radius: 50%;
+        border: 5px solid #fff;
+        box-shadow: 0 0 0.5em rgba(#999, 0.4);
+        width: 300px;
+        margin: 0 auto;
+    }
+}
