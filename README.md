@@ -1,7 +1,7 @@
 # wordpress-solution
 Boilerplate for dev in wordpress
 
-###### Requirements
+## Requirements
 - Docker
 - Docker Compose
 
@@ -14,7 +14,7 @@ To enter the store use the url
 http://localhost:8000
 
 If you want to see the database you can enter the url
-http://localhost:8000/phpmyadmin/
+http://localhost:8081/
 
 
 To edit the child theme run the command
@@ -26,3 +26,6 @@ To start observing the modified files
 To build for production
 > yarn build
 
+
+# Demo
+> https://makingweb.site/challenge-store/
